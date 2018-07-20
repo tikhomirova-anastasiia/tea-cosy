@@ -1,0 +1,192 @@
+body{
+  background-color: black;
+  font-family: helvetica;
+  color:seashell;
+  opacity: 0.9;
+}
+.body{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.mission {
+  width: 100%;
+}
+/*Header Styling*/
+.header{
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.header a{
+  text-decoration: underline;
+  color:seashell;
+  margin-right: 10px;
+}
+.header img{
+  margin-left: 10px;
+  height: 50px;
+}
+/* Content Styling*/
+.content {
+  position: relative;
+  top:70px;
+  display: flex;
+
+}
+/*Mission Section*/
+}
+.mission  {
+
+  width: 1200px;
+  height: 700px;
+  opacity: 0.9;
+
+}
+.missionheader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom:400px;
+  position: relative;
+  background-color: black;
+  height: 100px;
+  width: 1250px;
+}
+
+/*Teas Section Styling*/
+.teas {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.headerteas{
+  width:100%;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.headerteas h2,
+.headerteas h4 {
+  width:100%;
+}
+.fallberry,
+.spicedrum,
+.donuts,
+.myrtle,
+.bedford{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.fallberry img,
+.spicedrum img,
+.donuts img,
+.myrtle img,
+.bedford img{
+  height: 200px;
+  width: 300px;
+}
+.fallberry h4,
+.spicedrum h4,
+.donuts h4,
+.myrtle h4,
+.bedford h4{
+  text-align: center;
+}
+.fallberry{
+  margin-left: 100px;
+  margin-right: 25px;
+}
+.spicedrum{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.donut{
+  margin-right: 100px;
+  margin-left: 25px;
+}
+.myrtle{
+  margin-left: 275px;
+  margin-right: 25px;
+}
+.bedford{
+  margin-left: 25px;
+}
+
+
+/*locations styling*/
+.locations{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1200px;
+  background-image: url("./images/img-locations-background.jpeg");
+}
+
+.locations h2{
+  width: 100%;
+  text-align: center;
+}
+.downtown,
+.eastbayside,
+.oakdale{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.downtown {
+  margin-left: 120px;
+  margin-right: 20px;
+}
+.eastbayside {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.oakdale {
+  margin-left: 20px;
+}
+.downtown span,
+.eastbayside span,
+.oakdale span{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/*Styling the footer*/
+.footer{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 1000px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.copyright{
+  position: relative;
+  top:60px;
+}
