@@ -3,20 +3,18 @@ body{
   font-family: helvetica;
   color:seashell;
   opacity: 0.9;
+  font-size: 22px;
 }
 .body{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
+
 .content{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
-}
-.mission {
-  width: 100%;
 }
 /*Header Styling*/
 .header{
@@ -24,6 +22,7 @@ body{
   height: 69px;
   border-bottom: 1px solid seashell;
   position: fixed;
+  top: 0;
   z-index: 1;
   display: inline-flex;
   justify-content: space-between;
@@ -33,7 +32,7 @@ body{
 .header a{
   text-decoration: underline;
   color:seashell;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .header img{
   margin-left: 10px;
@@ -47,14 +46,23 @@ body{
 
 }
 /*Mission Section*/
+.mission {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top:69px;
 }
-.mission  {
-
+.mission img {
+  object-fit: contain;
   width: 1200px;
   height: 700px;
   opacity: 0.9;
-
 }
+
 .missionheader{
   display: flex;
   flex-direction: column;
