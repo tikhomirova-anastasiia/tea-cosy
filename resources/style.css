@@ -139,20 +139,20 @@ body{
   text-align: center;
 }
 .fallberry{
-  margin-right: 25px;
+  margin-right: 15px;
 }
 .spicedrum{
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
   }
 .donuts{
-  margin-left: 25px;
+  margin-left: 15px;
 }
 .myrtle{
-  margin-right: 25px;
+  margin-right: 15px;
 }
 .bedford{
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 /*locations styling*/
@@ -201,7 +201,7 @@ body{
 .downtown span,
 .eastbayside span,
 .oakdale span{
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
 }
 
@@ -216,7 +216,8 @@ body{
   top:100px;
 }
 .footerheader{
-  text-align:
+  text-align:center;
+  width: 1200px;
 }
 .contact{
   display: flex;
@@ -227,6 +228,6 @@ body{
 .copyright{
   text-align: left;
   width: 1000px;
-  margin-left: 0px;
+  margin-left: 20px;
   margin-right: auto;
 }
